@@ -1,0 +1,8 @@
+package OOPS.oopsL5.NotificationService;
+
+public class EmailNotification implements Notification{
+    @Override
+    public void send(String message) {
+        System.out.println("Sending Email: " + message);
+    }
+}

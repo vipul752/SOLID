@@ -3,7 +3,7 @@ package OOPS.oopsL4;
 public class SMSNotification implements Notification{
     private String message;
 
-    SMSNotification(String message){
+    public SMSNotification(){
         this.message = message;
     }
     @Override
